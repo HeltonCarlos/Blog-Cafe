@@ -137,17 +137,20 @@ img {
 /*Produtos*/
 
 .produtos {
-	max-width: 960px;
+	width: 100%;
 	margin: 60px auto;
 }
 
-.produtos h1 {
+.produtos h1 {text-align: center;
 	font-size: 3em;
 	margin: 0 10px 60px 10px
 }
 
 .produtos-container {
+	max-width: 80% ;
+	margin: 0 auto;
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: flex-end;
 }
@@ -174,6 +177,10 @@ img {
 
 .produto-br{
 	border-top: 8px solid #059753;
+}
+
+@media(max-width:750px){
+
 }
 
 /*Preco*/
